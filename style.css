@@ -39,7 +39,15 @@ body{
 
 h1{
     font-weight: 200;
-    font-size: 1.5em;
+    font-size: 2em;
+    text-align: center;
+}
+
+main > p{
+    font-weight: 200;
+    max-inline-size: 60ch;
+    margin-inline: auto;
+    text-align: center;
 }
 
 .wrapper{
@@ -51,6 +59,7 @@ h1{
     display: grid;
     grid-template-columns: 1fr;
     gap: 2em;
+    margin-block-start: 4em;
 }
 
 @media screen and (min-width: 50rem){
